@@ -1,0 +1,24 @@
+.img-banner{
+    background-image: url('../../../assets/images/reg.jpg');
+    background-repeat: no-repeat;
+    width:auto;
+}
+.img-banner{
+    /* width:800px; */
+    /* height: 600px; */
+
+}
+.text-h4{
+    /* text-decoration: solid; */
+    font-size: 2rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* text-shadow:rgb(230, 26, 230); */
+}
+.text-none{
+    text-decoration: none;
+}
+@media only screen and (max-width: 600px) {
+   .img-banner{
+    display: none;
+   }
+  }
